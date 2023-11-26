@@ -66,10 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\GridviewDiseno.css" />
-    <Content Include="css\style.css" />
+    <Content Include="css\css.css" />
     <Content Include="DB\DATABASE CODE.txt" />
     <Content Include="DB\DB_Examen2 - Luis Chaves.sql" />
     <Content Include="Equipos.aspx" />
+    <Content Include="img\Diagram_Examen2_Luis_Chaves.jpg" />
     <Content Include="Principal.aspx" />
     <Content Include="Tecnicos.aspx" />
     <Content Include="Usuarios.aspx" />

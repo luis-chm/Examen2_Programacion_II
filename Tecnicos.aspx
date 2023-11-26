@@ -19,19 +19,22 @@
         <br />
  
         </div>
-        <div class="container text-center" style="background-color: #646464; font-family: Arial; color: White; border: none 0px transparent;">
+        <div class="container text-center" style="background-color: #646464; font-family: Arial; color: White; border: none 0px transparent; width: 1050px;">
 
         <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Codigo de Tecnico: </label>
-        <asp:TextBox ID="txtTecnicoID" class="form-control" runat="server" ></asp:TextBox>
+        <label for="EnterText" class="form-label">Codigo de Tecnico: </label>
+            <br />
+        <asp:TextBox ID="txtTecnicoID" class="form-control form-control-sm d-inline-block w-50" runat="server" ></asp:TextBox>
             <br />
             <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Nombre: </label>
-        <asp:TextBox ID="txtNombre" class="form-control" runat="server"></asp:TextBox> 
+        <label for="EnterText" class="form-label">Nombre: </label>
+                <br />
+        <asp:TextBox ID="txtNombre" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox> 
                 <br />
             <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Especialidad: </label>
-         <asp:TextBox ID="txtEspecialidad" class="form-control" runat="server"></asp:TextBox>
+        <label for="EnterText" class="form-label">Especialidad: </label>
+                <br />
+         <asp:TextBox ID="txtEspecialidad" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox>
                 <br />
         </div>
 

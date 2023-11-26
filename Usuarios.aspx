@@ -10,7 +10,6 @@
                 <hr class="p-1 bg-dark w-100">
     <p>&nbsp;</p>
 </div>
-</div>
 <div>
         <asp:GridView runat="server" ID="datagrid" PageSize="10" HorizontalAlign="center" ItemStyle-Width="100px"
             CssClass="mydatagrid" PagerStyle-CssClass="pager" RowStyle-CssClass="rows" AllowPaging="True" AutoGenerateColumns="True"
@@ -20,24 +19,27 @@
         <br />
         <br />
     
-        </div>
-        <div class="container text-center" style="background-color: #646464; font-family: Arial; color: White; border: none 0px transparent;">
-
+</div>
+        <div class="container text-center" style="background-color: #646464; font-family: Arial; color: White; border: none 0px transparent; width: 1050px;">
         <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Codigo de Usuario: </label>
-        <asp:TextBox ID="txtUsuarioID" class="form-control" runat="server" ></asp:TextBox>
+        <label for="EnterText" class="form-label">Codigo de Usuario: </label>
+            <br />
+        <asp:TextBox ID="txtUsuarioID" class="form-control form-control-sm d-inline-block w-50" runat="server" ></asp:TextBox>
             <br />
             <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Nombre: </label>
-        <asp:TextBox ID="txtNombre" class="form-control" runat="server"></asp:TextBox> 
+        <label for="EnterText" class="form-label">Nombre: </label>
+                <br />
+        <asp:TextBox ID="txtNombre" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox> 
                 <br />
             <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Correo: </label>
-         <asp:TextBox ID="txtCorreo" class="form-control" runat="server"></asp:TextBox>
+        <label for="EnterText" class="form-label">Correo: </label>
+                <br />
+         <asp:TextBox ID="txtCorreo" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox>
                 <br />
             <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Telefono: </label>
-        <asp:TextBox ID="txtTelefono" class="form-control" runat="server"></asp:TextBox>
+        <label for="EnterText" class="form-label">Telefono: </label>
+                <br />
+        <asp:TextBox ID="txtTelefono" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox>
         </div>
 
 <div class="container text-center">

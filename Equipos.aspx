@@ -20,24 +20,28 @@
         <br />
     
 </div>
-<div class="container text-center" style="background-color: #646464; font-family: Arial; color: White; border: none 0px transparent;">
+        <div class="container text-center" style="background-color: #646464; font-family: Arial; color: White; border: none 0px transparent; width: 1050px;">
 
-<div class="mb-3">
-<label for="exampleInputPassword1" class="form-label">Codigo de Equipo</label>
-<asp:TextBox ID="txtEquipoID" class="form-control" runat="server" ></asp:TextBox>
-    <br />
-    <div class="mb-3">
-<label for="exampleInputPassword1" class="form-label">Tipo de Equipo</label>
-<asp:TextBox ID="txtTipoEquipo" class="form-control" runat="server"></asp:TextBox> 
-        <br />
-    <div class="mb-3">
-<label for="exampleInputPassword1" class="form-label">Modelo</label>
- <asp:TextBox ID="txtModelo" class="form-control" runat="server"></asp:TextBox>
-        <br />
-    <div class="mb-3">
-<label for="exampleInputPassword1" class="form-label">Codigo Usuario: </label>
-<asp:TextBox ID="txtUserID" class="form-control" runat="server"></asp:TextBox>
-</div>
+        <div class="mb-3">
+        <label for="EnterText" class="form-label">Codigo de Equipo</label>
+            <br />
+        <asp:TextBox ID="txtEquipoID" class="form-control form-control-sm d-inline-block w-50" runat="server" ></asp:TextBox>
+            <br />
+            <div class="mb-3">
+        <label for="EnterText" class="form-label">Tipo de Equipo</label>
+                <br />
+        <asp:TextBox ID="txtTipoEquipo" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox> 
+                <br />
+            <div class="mb-3">
+        <label for="EnterText" class="form-label">Modelo</label>
+                <br />
+         <asp:TextBox ID="txtModelo" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox>
+                <br />
+            <div class="mb-3">
+        <label for="EnterText" class="form-label">Codigo Usuario: </label>
+                <br />
+        <asp:TextBox ID="txtUserID" class="form-control form-control-sm d-inline-block w-50" runat="server"></asp:TextBox>
+        </div>
 
 <div class="container text-center">
     <br />
