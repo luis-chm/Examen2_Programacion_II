@@ -183,7 +183,7 @@ h3{
     color: rgb(8, 49, 112);
     box-shadow: rgb(8 49 112 / 24%) 0px 2px 8px 0px;
     border-radius: 2rem;
-    padding: 75rem 1rem;
+    padding: .75rem 1.5rem;
 }
 
 .r-link {
